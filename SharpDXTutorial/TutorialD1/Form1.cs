@@ -132,7 +132,7 @@ namespace TutorialD1
         private void Form1_Resize(object sender, EventArgs e)
         {
             //resize target
-            target.Resize(new Size2(this.ClientSize.Width, this.ClientSize.Height));
+            target?.Resize(new Size2(this.ClientSize.Width, this.ClientSize.Height));
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
